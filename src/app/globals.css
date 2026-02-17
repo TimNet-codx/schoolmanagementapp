@@ -47,8 +47,20 @@ body {
 }
 
 .rbc-btn-group:first-child {
-  display: none !important;
+  /* display: none !important; */
+   background-color: #f1f0ff !important;
+   font-size: 13px !important;
+
 }
+
+.rbc-btn-group:first-child:hover {
+  /* display: none !important; */
+   background-color: #dbdafe !important;
+   font-size: 13px !important;
+
+}
+
+
 
 .rbc-toolbar-label {
   text-align: right !important;
@@ -75,11 +87,11 @@ body {
 }
 
 .rbc-time-header {
-  display: none !important;
+  /* display: none !important; */
 }
 
 .rbc-time-content {
-  border: none !important;
+  /* border: none !important; */
 }
 
 .rbc-time-gutter.rbc-time-column {
